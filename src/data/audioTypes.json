@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "tapping",
+    "label": "Tapping",
+    "folder": "test-assets"
+  },
+  {
+    "id": 2,
+    "name": "scrunch",
+    "label": "Scrunch",
+    "folder": "test-assets"
+  },
+  {
+    "id": 3,
+    "name": "random",
+    "label": "Random",
+    "folder": "test-assets"
+  }
+]

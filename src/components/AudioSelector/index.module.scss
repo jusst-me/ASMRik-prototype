@@ -1,0 +1,31 @@
+.AudioSelector {
+  width: 480px;
+  border-right: 1px solid black;
+  height: 100%;
+  background: #eee;
+  padding: 16px;
+  height: 100%;
+
+  .header {
+    margin: 0;
+    text-align: center;
+  }
+
+  .audioGrid {
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+
+    .gridItem {
+      padding: 24px 16px;
+      cursor: pointer;
+
+      &.active, .active:focus {
+        border: 2px solid blue;
+        font-weight: bold;
+        outline: none;
+      }
+    }
+  }
+}
